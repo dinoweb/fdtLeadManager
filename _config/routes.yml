@@ -1,0 +1,7 @@
+---
+Name: webhooksroutes
+After: framework/routes#coreroutes
+---
+Director:
+  rules:
+    'webhook/$Action': 'Webhook_Controller'
